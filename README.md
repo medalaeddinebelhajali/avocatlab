@@ -6,7 +6,7 @@ git clone https://github.com/username/nom-repo.git
 
 2. Enter the folder
 
-cd nom-repo
+cd dossier
 
 3. Create your branch
 

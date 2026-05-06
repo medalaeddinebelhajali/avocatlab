@@ -1,42 +1,27 @@
-# vue-project
+kifech tsoba aandek
 
-This template should help get you started developing with Vue 3 in Vite.
+1. Clone
 
-## Recommended IDE Setup
+bashgit clone https://github.com/username/nom-repo.git
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+2. Enter the folder
 
-## Recommended Browser Setup
+bashcd nom-repo
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+3. Create your branch
 
-## Type Support for `.vue` Imports in TS
+bashgit checkout -b feature/yourname
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+4. Install dependencies
 
-## Customize configuration
+bashnpm install
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+5. Run the server
 
-## Project Setup
+bashnpm run dev
 
-```sh
-npm install
-```
+6. After working, push your changes
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
+bashgit add .
+git commit -m "my work"
+git push -u origin feature/yourname

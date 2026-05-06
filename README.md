@@ -10,7 +10,7 @@ cd nom-repo
 
 3. Create your branch
 
-git checkout -b feature/yourname
+git checkout -b yourname
 
 4. Install dependencies
 
@@ -23,5 +23,7 @@ npm run dev
 6. After working, push your changes
 
 git add .
-git commit -m "my work"
-git push -u origin feature/yourname
+
+git commit -m "comments"
+
+git push -u origin yourname

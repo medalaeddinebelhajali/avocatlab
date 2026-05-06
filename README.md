@@ -2,26 +2,26 @@ kifech tsoba aandek
 
 1. Clone
 
-bashgit clone https://github.com/username/nom-repo.git
+git clone https://github.com/username/nom-repo.git
 
 2. Enter the folder
 
-bashcd nom-repo
+cd nom-repo
 
 3. Create your branch
 
-bashgit checkout -b feature/yourname
+git checkout -b feature/yourname
 
 4. Install dependencies
 
-bashnpm install
+npm install
 
 5. Run the server
 
-bashnpm run dev
+npm run dev
 
 6. After working, push your changes
 
-bashgit add .
+git add .
 git commit -m "my work"
 git push -u origin feature/yourname
